@@ -1,5 +1,64 @@
 body {
-    background-color:  black;
+    background-color: black;
     color: white;
+    box-sizing: border-box;
+}
+body.intro {
+        background-color: black;
+background-image:
+    radial-gradient(3px 3px at 20px 30px, white 0 1px, rgba(180, 200, 255, 0.35) 1.5px, transparent 3px),
+    radial-gradient(3px 3px at 70px 80px, white 0 1px, rgba(180, 200, 255, 0.25) 1.5px, transparent 3px),
+    radial-gradient(4px 4px at 120px 45px, white 0 1px, rgba(180, 200, 255, 0.3) 1.5px, transparent 4px);
+background-size: 180px 160px, 230px 200px, 310px 270px;
+}
+nav {
     text-align: center;
+    display: none;
+}
+main {
+    display: none;
+}
+a {
+    text-decoration: none;
+    padding: 20px;
+}
+section.introduccion {
+    margin: 180px;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 20px;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 35px white;
+
+}
+section.introduccion h1 {
+    font-size: 50px;
+}
+section.introduccion h2 {
+    font-size: 30px;
+}
+section.introduccion p {
+    font-size: 20px;
+}
+section.introduccion .entrar {
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    border: 2px solid white;
+    cursor: pointer;
+    transition: transform 0.6s ease;
+
+}
+section.introduccion .entrar:hover {
+    box-shadow: 0px 0px 35px black;
+    transform: scale(1.04);
+
+}
+main h1 {
+    text-align: center;
+    font-size: 100px;
 }
