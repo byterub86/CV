@@ -58,3 +58,7 @@ section.introduccion .entrar:hover {
     transform: scale(1.04);
 
 }
+main h1 {
+    text-align: center;
+    font-size: 100px;
+}
