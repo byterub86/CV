@@ -11,10 +11,6 @@ background-image:
     radial-gradient(4px 4px at 120px 45px, white 0 1px, rgba(180, 200, 255, 0.3) 1.5px, transparent 4px);
 background-size: 180px 160px, 230px 200px, 310px 270px;
 }
-nav {
-    text-align: center;
-    display: none;
-}
 main {
     display: none;
 }
